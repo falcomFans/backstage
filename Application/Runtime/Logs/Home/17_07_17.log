@@ -1,0 +1,26 @@
+[ 2017-07-17T19:23:36+08:00 ] 127.0.0.1 /index.php/Home/Goods/createStatic.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000604s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0167s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_big_logo` FROM `sp_goods` WHERE `goods_id` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0069s ]
+SQL: SELECT a.attr_name,a.attr_sel,ga.* FROM sp_goods_attr ga INNER JOIN sp_attribute as a on ga.attr_id = a.attr_id  WHERE ga.goods_id = '28'  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000436s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000551s ]
+NOTIC: [8] Undefined index: username D:\AllFile\Repository\weChat\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 35 行.
+NOTIC: [8] Undefined index: username D:\AllFile\Repository\weChat\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 37 行.
+NOTIC: [8] Undefined variable: gi D:\AllFile\Repository\weChat\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 149 行.
+NOTIC: [8] Undefined variable: gi D:\AllFile\Repository\weChat\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 174 行.
+NOTIC: [8] Undefined variable: gi D:\AllFile\Repository\weChat\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 178 行.
+NOTIC: [8] Undefined variable: gi D:\AllFile\Repository\weChat\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 185 行.
+NOTIC: [8] Undefined variable: gi D:\AllFile\Repository\weChat\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 189 行.
+NOTIC: [8] Undefined variable: ga D:\AllFile\Repository\weChat\Application\Runtime\Cache\Home\795e274f7e0defaaba4ae5ed57f62a8c.php 第 254 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.123391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.123424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000287s ]
+

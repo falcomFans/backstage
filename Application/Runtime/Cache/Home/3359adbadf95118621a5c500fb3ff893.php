@@ -1,0 +1,121 @@
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html>
+<html>
+
+	<head lang="en">
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<meta name="format-detection" content="telephone=no">
+		<meta name="renderer" content="webkit">
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+		<link rel="stylesheet" href="<?php echo C('AMZ_URL');?>assets/css/amazeui.min.css" />
+		<link href="<?php echo C('CSS_URL');?>dlstyle.css" rel="stylesheet" type="text/css">
+		<script src="<?php echo C('AMZ_URL');?>assets/js/jquery.min.js"></script>
+		<script src="<?php echo C('AMZ_URL');?>assets/js/amazeui.min.js"></script>
+
+	</head>
+
+	<body>
+
+		<div class="login-boxtitle">
+			<a href="home/demo.html"><img alt="" src="<?php echo C('IMG_URL');?>logobig.png" /></a>
+		</div>
+
+		<div class="res-banner">
+			<div class="res-main">
+				<div class="login-banner-bg"><span></span><img src="<?php echo C('IMG_URL');?>big.jpg" /></div>
+				<div class="login-box">
+
+						<div class="am-tabs" id="doc-my-tabs">
+							<ul class="am-tabs-nav am-nav am-nav-tabs am-nav-justify">
+								<li ><a href="">手机号注册</a></li>
+							</ul>
+							<div class="am-tabs-bd">
+								<div >
+									<form method="post">
+                 <div class="user-phone">
+								    <label for="phone"><i class="am-icon-mobile-phone am-icon-md"></i></label>
+								    <input type="tel" name="" id="phone" placeholder="请输入手机号">
+                 </div>																			
+										<div class="verification">
+											<label for="code"><i class="am-icon-code-fork"></i></label>
+											<input type="tel" name="" id="code" placeholder="请输入验证码">
+											<a class="btn" href="javascript:void(0);" onclick="sendMobileCode();" id="sendMobileCode">
+												<span id="dyMobileButton">获取</span></a>
+										</div>
+                 <div class="user-pass">
+								    <label for="password"><i class="am-icon-lock"></i></label>
+								    <input type="password" name="" id="password" placeholder="设置密码">
+                 </div>										
+                
+									</form>
+								 <div class="login-links">
+										<label for="reader-me">
+											<input id="reader-me" type="checkbox"> 点击表示您同意商城《服务协议》
+										</label>
+							  	</div>
+										<div class="am-cf">								
+											<button type="button" id="register" class="btn btn-large btn-block btn-success">注册</button>				
+										</div>		
+									<hr>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>	
+			<div class="footer">
+    <p>Copyright &copy; 2017.Company name All rights reserved.More information <a href="https://www.baidu.com/s?wd=falcom">Falcom</a></p>
+</div>
+
+<link rel="stylesheet" type="" href="<?php echo C('CSS_URL');?>bootstrap.css">
+<script src="<?php echo C('JS_URL');?>jquery.js"></script>
+<script src="<?php echo C('JS_URL');?>bootstrap.js"></script>
+<script src="<?php echo C('LAY_URL');?>layer.js"}></script>
+	</body>
+</html>
+
+<script>
+	// 这里是发送验证码的逻辑
+	function sendMobileCode() {
+		var index = layer.load(0, { shade: false }); //0代表加载的风格，支持0-2
+		var phone = $("#phone").val();
+		$.ajax({
+			type: "post",
+			url: "<?php echo U('sendRegisterSMS');?>",
+			data: "phone="+phone,
+			dataType: "json",
+			success: function (msg) {
+				if(msg['status'] == 200){
+					layer.closeAll("loading");
+					layer.msg('短信验证码发送成功,请填写验证码');	
+				}else{
+					layer.closeAll("loading");
+					layer.msg('短信验证码发送失败,请稍后再试');	
+				}
+			}
+		});
+	}
+
+	// 收集表单信息
+	$("#register").click(function (e) { 
+		e.preventDefault();
+		var index = layer.load(0, { shade: false }); //0代表加载的风格，支持0-2
+		var phone = $("#phone").val();
+		var code = $("#code").val();
+		var pass = $("#password").val();
+		$.ajax({
+			type: "post",
+			url: "<?php echo U('register');?>",
+			data: {"phone":phone,"code":code,"pass":pass},
+			dataType: "json",
+			success: function (msg) {
+				layer.closeAll("loading");
+					// layer.msg('短信验证码发送成功,请填写验证码');	
+					console.log(msg);
+			}
+		});
+	});
+
+</script>

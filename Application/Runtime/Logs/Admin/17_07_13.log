@@ -1,0 +1,175 @@
+[ 2017-07-13T18:09:21+08:00 ] 127.0.0.1 /index.php/Admin/User/search.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000712s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0175s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0089s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_user` WHERE `flag` = '1' AND `username` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: Page D:\AllFile\Repository\weChat\Application\Admin\Model\UserModel.class.php 第 49 行.
+NOTIC: [8] Trying to get property of non-object D:\AllFile\Repository\weChat\Application\Admin\Model\UserModel.class.php 第 49 行.
+NOTIC: [8] Undefined variable: Page D:\AllFile\Repository\weChat\Application\Admin\Model\UserModel.class.php 第 49 行.
+NOTIC: [8] Trying to get property of non-object D:\AllFile\Repository\weChat\Application\Admin\Model\UserModel.class.php 第 49 行.
+SQL: SELECT * FROM `sp_user` WHERE `flag` = '1' AND `username` LIKE '%%' ORDER BY user_time  [ RunTime:0.0006s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000708s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000739s ]
+
+[ 2017-07-13T18:41:50+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0062s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0089s ]
+SQL: SELECT * FROM sp_goods g INNER JOIN sp_type as t on g.type_id = t.type_id  WHERE `flag` = '1' AND `goods_id` = '30' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0110s ]
+SQL: SELECT `goods_id`,a.attr_id,`attr_vals`,`attr_sel`,`attr_value` FROM sp_goods_attr ga INNER JOIN sp_attribute as a on ga.attr_id = a.attr_id   WHERE `goods_id` = '30'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0135s ]
+SQL: SELECT * FROM sp_attribute a WHERE `type_id` = 20  [ RunTime:0.0003s ]
+
+[ 2017-07-13T18:42:53+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/30.html
+ERR: 不存在的图像文件
+
+[ 2017-07-13T18:43:04+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001840s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0078s ]
+SQL: SELECT * FROM sp_goods g INNER JOIN sp_type as t on g.type_id = t.type_id  WHERE `flag` = '1' AND `goods_id` = '30' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0093s ]
+SQL: SELECT `goods_id`,a.attr_id,`attr_vals`,`attr_sel`,`attr_value` FROM sp_goods_attr ga INNER JOIN sp_attribute as a on ga.attr_id = a.attr_id   WHERE `goods_id` = '30'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0091s ]
+SQL: SELECT * FROM sp_attribute a WHERE `type_id` = 20  [ RunTime:0.0003s ]
+
+[ 2017-07-13T18:43:33+08:00 ] 127.0.0.1 /index.php/Admin/Goods/edit/id/30.html
+ERR: 不存在的图像文件
+
+[ 2017-07-13T18:43:40+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001212s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0151s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0051s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0005s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0083s ]
+SQL: SELECT * FROM sp_goods g INNER JOIN sp_type as t on g.type_id = t.type_id  WHERE `flag` = '1' AND `goods_id` = '30' LIMIT 1   [ RunTime:0.0013s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0140s ]
+SQL: SELECT `goods_id`,a.attr_id,`attr_vals`,`attr_sel`,`attr_value` FROM sp_goods_attr ga INNER JOIN sp_attribute as a on ga.attr_id = a.attr_id   WHERE `goods_id` = '30'  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0073s ]
+SQL: SELECT * FROM sp_attribute a WHERE `type_id` = 20  [ RunTime:0.0004s ]
+
+[ 2017-07-13T18:48:55+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002700s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003076s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0105s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0042s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0138s ]
+SQL: SELECT * FROM sp_goods g INNER JOIN sp_type as t on g.type_id = t.type_id  WHERE `flag` = '1' AND `goods_id` = '31' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0062s ]
+SQL: SELECT `goods_id`,a.attr_id,`attr_vals`,`attr_sel`,`attr_value` FROM sp_goods_attr ga INNER JOIN sp_attribute as a on ga.attr_id = a.attr_id   WHERE `goods_id` = '31'  [ RunTime:0.0004s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0068s ]
+SQL: SELECT * FROM sp_attribute a WHERE `type_id` = 20  [ RunTime:0.0002s ]
+
+[ 2017-07-13T18:49:02+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000815s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002220s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0154s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0083s ]
+SQL: SELECT * FROM sp_goods g INNER JOIN sp_type as t on g.type_id = t.type_id  WHERE `flag` = '1' AND `goods_id` = '28' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0063s ]
+SQL: SELECT `goods_id`,a.attr_id,`attr_vals`,`attr_sel`,`attr_value` FROM sp_goods_attr ga INNER JOIN sp_attribute as a on ga.attr_id = a.attr_id   WHERE `goods_id` = '28'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0145s ]
+SQL: SELECT * FROM sp_attribute a WHERE `type_id` = 18  [ RunTime:0.0002s ]
+
+[ 2017-07-13T18:49:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000774s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0141s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0043s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0086s ]
+SQL: SELECT * FROM sp_goods g INNER JOIN sp_type as t on g.type_id = t.type_id  WHERE `flag` = '1' AND `goods_id` = '30' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0070s ]
+SQL: SELECT `goods_id`,a.attr_id,`attr_vals`,`attr_sel`,`attr_value` FROM sp_goods_attr ga INNER JOIN sp_attribute as a on ga.attr_id = a.attr_id   WHERE `goods_id` = '30'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0075s ]
+SQL: SELECT * FROM sp_attribute a WHERE `type_id` = 20  [ RunTime:0.0002s ]
+
+[ 2017-07-13T18:49:22+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0146s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0081s ]
+SQL: SELECT * FROM sp_goods g INNER JOIN sp_type as t on g.type_id = t.type_id  WHERE `flag` = '1' AND `goods_id` = '31' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0087s ]
+SQL: SELECT `goods_id`,a.attr_id,`attr_vals`,`attr_sel`,`attr_value` FROM sp_goods_attr ga INNER JOIN sp_attribute as a on ga.attr_id = a.attr_id   WHERE `goods_id` = '31'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0067s ]
+SQL: SELECT * FROM sp_attribute a WHERE `type_id` = 20  [ RunTime:0.0003s ]
+
+[ 2017-07-13T18:49:28+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000847s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0135s ]
+SQL: SELECT * FROM sp_goods g INNER JOIN sp_type as t on g.type_id = t.type_id  WHERE `flag` = '1' AND `goods_id` = '30' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0067s ]
+SQL: SELECT `goods_id`,a.attr_id,`attr_vals`,`attr_sel`,`attr_value` FROM sp_goods_attr ga INNER JOIN sp_attribute as a on ga.attr_id = a.attr_id   WHERE `goods_id` = '30'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0073s ]
+SQL: SELECT * FROM sp_attribute a WHERE `type_id` = 20  [ RunTime:0.0003s ]
+
+[ 2017-07-13T18:49:46+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000850s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0223s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0067s ]
+SQL: SELECT * FROM sp_goods g INNER JOIN sp_type as t on g.type_id = t.type_id  WHERE `flag` = '1' AND `goods_id` = '30' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0080s ]
+SQL: SELECT `goods_id`,a.attr_id,`attr_vals`,`attr_sel`,`attr_value` FROM sp_goods_attr ga INNER JOIN sp_attribute as a on ga.attr_id = a.attr_id   WHERE `goods_id` = '30'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0083s ]
+SQL: SELECT * FROM sp_attribute a WHERE `type_id` = 20  [ RunTime:0.0003s ]
+
+[ 2017-07-13T19:00:13+08:00 ] 127.0.0.1 /index.php/Admin/Goods/getAttr.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000388s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0162s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0061s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0069s ]
+SQL: SELECT * FROM sp_goods g INNER JOIN sp_type as t on g.type_id = t.type_id  WHERE `flag` = '1' AND `goods_id` = '30' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0243s ]
+SQL: SELECT `goods_id`,a.attr_id,`attr_vals`,`attr_sel`,`attr_value` FROM sp_goods_attr ga INNER JOIN sp_attribute as a on ga.attr_id = a.attr_id   WHERE `goods_id` = '30'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_attribute` [ RunTime:0.0060s ]
+SQL: SELECT * FROM sp_attribute a WHERE `type_id` = 20  [ RunTime:0.0002s ]
+

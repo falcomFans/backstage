@@ -1,0 +1,133 @@
+[ 2017-07-17T18:55:01+08:00 ] 127.0.0.1 /index.php/Admin/Goods/createStatic.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000617s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0054s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0004s ]
+
+[ 2017-07-17T18:55:11+08:00 ] 127.0.0.1 /index.php/Admin/Goods/createStatic.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000510s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000876s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0234s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0002s ]
+
+[ 2017-07-17T18:55:17+08:00 ] 127.0.0.1 /index.php/Admin/Goods/createStatic.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0195s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0002s ]
+
+[ 2017-07-17T19:12:37+08:00 ] 127.0.0.1 /index.php/Admin/Goods/createStatic.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000726s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0079s ]
+SQL: SELECT `goods_id`,`goods_name`,`goods_price`,`goods_big_logo` FROM `sp_goods` WHERE `goods_id` = 28 LIMIT 1   [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods_attr` [ RunTime:0.0378s ]
+SQL: SELECT a.attr_name,a.attr_sel,ga.* FROM sp_goods_attr ga INNER JOIN sp_attribute as a on ga.attr_id = a.attr_id  WHERE ga.goods_id = '28'  [ RunTime:0.0151s ]
+ERR: 模板不存在:./Application/Admin/View/Home/Goods/detail.html
+
+[ 2017-07-17T19:18:03+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000396s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000779s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0169s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0047s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0011s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0124s ]
+SQL: SELECT g.*,t.type_name FROM sp_goods g INNER JOIN sp_type as t on g.type_id = t.type_id  WHERE `flag` = '1'  [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' D:\AllFile\Repository\weChat\Application\Runtime\Cache\Admin\44880e36edc292d062be9cc091c2da1a.php 第 295 行.
+NOTIC: [8] Use of undefined constant Goods - assumed 'Goods' D:\AllFile\Repository\weChat\Application\Runtime\Cache\Admin\44880e36edc292d062be9cc091c2da1a.php 第 295 行.
+NOTIC: [2] Division by zero D:\AllFile\Repository\weChat\Application\Runtime\Cache\Admin\44880e36edc292d062be9cc091c2da1a.php 第 295 行.
+NOTIC: [8] Use of undefined constant createStatic - assumed 'createStatic' D:\AllFile\Repository\weChat\Application\Runtime\Cache\Admin\44880e36edc292d062be9cc091c2da1a.php 第 295 行.
+NOTIC: [2] Division by zero D:\AllFile\Repository\weChat\Application\Runtime\Cache\Admin\44880e36edc292d062be9cc091c2da1a.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.052444s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.052694s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000924s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000974s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000594s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2017-07-17T19:18:38+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0168s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0003s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0073s ]
+SQL: SELECT g.*,t.type_name FROM sp_goods g INNER JOIN sp_type as t on g.type_id = t.type_id  WHERE `flag` = '1'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000123s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000155s ]
+NOTIC: [8] Use of undefined constant Home - assumed 'Home' D:\AllFile\Repository\weChat\Application\Runtime\Cache\Admin\44880e36edc292d062be9cc091c2da1a.php 第 295 行.
+NOTIC: [8] Use of undefined constant Goods - assumed 'Goods' D:\AllFile\Repository\weChat\Application\Runtime\Cache\Admin\44880e36edc292d062be9cc091c2da1a.php 第 295 行.
+NOTIC: [2] Division by zero D:\AllFile\Repository\weChat\Application\Runtime\Cache\Admin\44880e36edc292d062be9cc091c2da1a.php 第 295 行.
+NOTIC: [8] Use of undefined constant createStatic - assumed 'createStatic' D:\AllFile\Repository\weChat\Application\Runtime\Cache\Admin\44880e36edc292d062be9cc091c2da1a.php 第 295 行.
+NOTIC: [2] Division by zero D:\AllFile\Repository\weChat\Application\Runtime\Cache\Admin\44880e36edc292d062be9cc091c2da1a.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.038544s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.038572s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000194s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000405s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000454s ]
+
+[ 2017-07-17T19:19:39+08:00 ] 127.0.0.1 /index.php/Admin/Goods/showlist.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0104s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0003s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `sp_goods` [ RunTime:0.0068s ]
+SQL: SELECT g.*,t.type_name FROM sp_goods g INNER JOIN sp_type as t on g.type_id = t.type_id  WHERE `flag` = '1'  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000096s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [8] Use of undefined constant Goods - assumed 'Goods' D:\AllFile\Repository\weChat\Application\Runtime\Cache\Admin\44880e36edc292d062be9cc091c2da1a.php 第 295 行.
+NOTIC: [8] Use of undefined constant createStatic - assumed 'createStatic' D:\AllFile\Repository\weChat\Application\Runtime\Cache\Admin\44880e36edc292d062be9cc091c2da1a.php 第 295 行.
+NOTIC: [2] Division by zero D:\AllFile\Repository\weChat\Application\Runtime\Cache\Admin\44880e36edc292d062be9cc091c2da1a.php 第 295 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.034300s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034329s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000475s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+
+[ 2017-07-17T19:20:07+08:00 ] 127.0.0.1 /index.php/Admin/Goods/createStatic.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0172s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0004s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0002s ]
+ERR: 非法操作:createStatic
+

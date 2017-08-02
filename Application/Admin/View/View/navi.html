@@ -1,0 +1,28 @@
+<div class=" sidebar" role="navigation">
+    <div class="navbar-collapse">
+        <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-left" id="cbp-spmenu-s1">
+            <ul class="nav" id="side-menu">
+                <!--<li>-->
+                    <!--<a href="index.html"><i class="fa fa-home nav_icon"></i>Dashboard</a>-->
+                <!--</li>-->
+                <foreach name="authA" item="v">
+                <li>
+                    <a href="#"><i class="fa fa-cogs nav_icon"></i>{$v.auth_name}<span class="fa arrow"></span></a>
+                    <ul class="nav nav-second-level collapse">
+                        <foreach name="authB" item="vv">
+                            <eq name="vv['auth_pid']" value="$v.auth_id">
+                        <li>
+                            <a href="__MODULE__/{$vv.auth_c}/{$vv.auth_a}">{$vv.auth_name}</a>
+                        </li>
+                            </eq>
+                        </foreach>
+                    </ul>
+                    <!-- /nav-second-level -->
+                </li>
+                </foreach>
+            </ul>
+            <div class="clearfix"> </div>
+            <!-- //sidebar-collapse -->
+        </nav>
+    </div>
+</div>

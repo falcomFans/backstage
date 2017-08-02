@@ -1,0 +1,25 @@
+[ 2017-07-14T00:43:02+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2017-07-14T00:45:46+08:00 ] 127.0.0.1 /index.php/Admin/Order/showlist
+ERR: 无法加载控制器:Order
+
+[ 2017-07-14T10:32:18+08:00 ] 127.0.0.1 /index.php/Admin/User/search.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0410s ]
+SQL: SHOW COLUMNS FROM `sp_auth` [ RunTime:0.0114s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '0'  [ RunTime:0.0020s ]
+SQL: SELECT * FROM `sp_auth` WHERE `flag` = '1' AND `auth_level` = '1'  [ RunTime:0.0008s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0249s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `sp_user` WHERE `flag` = '1' AND `username` LIKE '%%' LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined variable: Page D:\AllFile\Repository\weChat\Application\Admin\Model\UserModel.class.php 第 49 行.
+NOTIC: [8] Trying to get property of non-object D:\AllFile\Repository\weChat\Application\Admin\Model\UserModel.class.php 第 49 行.
+NOTIC: [8] Undefined variable: Page D:\AllFile\Repository\weChat\Application\Admin\Model\UserModel.class.php 第 49 行.
+NOTIC: [8] Trying to get property of non-object D:\AllFile\Repository\weChat\Application\Admin\Model\UserModel.class.php 第 49 行.
+SQL: SELECT * FROM `sp_user` WHERE `flag` = '1' AND `username` LIKE '%%' ORDER BY user_time  [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001846s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002075s ]
+

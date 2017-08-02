@@ -1,0 +1,224 @@
+[ 2017-07-11T00:04:51+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001006s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0119s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Tim' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T00:05:03+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000770s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'ldasj' AND `password` = 'fasjlksa' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T00:05:09+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001625s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002229s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0182s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = '12321' AND `password` = '3112321' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T00:05:15+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000330s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000609s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = '3321' AND `password` = '31331' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T00:06:21+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001503s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0198s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Tim' AND `password` = '123456' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-11T00:07:07+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Tim' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T00:07:44+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000769s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001220s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0183s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = '1' AND `password` = '1' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T00:08:22+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000523s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000943s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = '123' AND `password` = '32131' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T00:09:36+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Lucy' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T00:09:44+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0179s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'jjj' AND `password` = 'jjj' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T00:10:21+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000575s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000960s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0167s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = '11' AND `password` = '111' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-11T00:13:43+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0112s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Tim' AND `password` = '12' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-11T00:14:24+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000862s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0226s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'e\'q\'w\'q' AND `password` = 'eq' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-11T00:15:19+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000791s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0180s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = '1321' AND `password` = '32132' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-07-11T00:16:37+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0181s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = '1321' AND `password` = '32132' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-11T00:16:49+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000540s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0217s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Tim' AND `password` = '123456' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-07-11T00:19:03+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Tim' AND `password` = '123456' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-11T00:19:35+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000345s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000599s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0096s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Tim' AND `password` = '123456' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-11T00:19:42+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000851s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001391s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0105s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Tim' AND `password` = '213' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T00:34:56+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0229s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Tim' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T00:37:03+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Tim' AND `password` = '123456' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-11T00:42:50+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000760s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Tim' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T00:43:22+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000399s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000708s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0157s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Tim' AND `password` = '123456' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-11T00:43:49+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0150s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Tim' AND `password` = '123456' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-11T00:45:48+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0166s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Jim' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T00:47:36+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Lucy' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T00:48:02+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Lucy' AND `password` = '123456' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-11T00:48:19+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000652s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Tim' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T00:50:50+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Lucy' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T00:51:51+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000658s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0163s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Lucy' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T00:53:36+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000592s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Lucy' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-07-11T00:53:52+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000784s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0106s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Lucy' AND `password` = '123456' LIMIT 1   [ RunTime:0.0003s ]
+

@@ -1,0 +1,172 @@
+[ 2017-07-10T21:36:37+08:00 ] 127.0.0.1 /index.php/Home/Index/products.html
+ERR: 非法操作:products
+
+[ 2017-07-10T23:44:49+08:00 ] 127.0.0.1 /index.php/Home/Index/layer.js
+ERR: 非法操作:layer.js
+
+[ 2017-07-10T23:45:27+08:00 ] 127.0.0.1 /index.php/Home/Index/layer.js
+ERR: 非法操作:layer.js
+
+[ 2017-07-10T23:45:27+08:00 ] 127.0.0.1 /index.php/Home/Index/layer.js
+ERR: 非法操作:layer.js
+
+[ 2017-07-10T23:45:49+08:00 ] 127.0.0.1 /index.php/Home/Index/layer.js
+ERR: 非法操作:layer.js
+
+[ 2017-07-10T23:45:49+08:00 ] 127.0.0.1 /index.php/Home/Index/layer.js
+ERR: 非法操作:layer.js
+
+[ 2017-07-10T23:46:35+08:00 ] 127.0.0.1 /index.php/Home/Index/layer.js
+ERR: 非法操作:layer.js
+
+[ 2017-07-10T23:48:11+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000417s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0308s ]
+NOTIC: [8] Undefined index: pass D:\AllFile\Repository\weChat\Application\Home\Model\UserModel.class.php 第 18 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+SQL: SELECT * FROM `sp_user` WHERE `username` = '' AND ( `password` = null  ) LIMIT 1   [ RunTime:0.0152s ]
+NOTIC: [8] Array to string conversion D:\AllFile\Repository\weChat\Application\Home\Controller\UserController.class.php 第 22 行.
+
+[ 2017-07-10T23:49:02+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000605s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0153s ]
+NOTIC: [8] Undefined index: pass D:\AllFile\Repository\weChat\Application\Home\Model\UserModel.class.php 第 18 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+SQL: SELECT * FROM `sp_user` WHERE `username` = '' AND ( `password` = null  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion D:\AllFile\Repository\weChat\Application\Home\Controller\UserController.class.php 第 22 行.
+
+[ 2017-07-10T23:49:23+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000650s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined index: pass D:\AllFile\Repository\weChat\Application\Home\Model\UserModel.class.php 第 18 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+SQL: SELECT * FROM `sp_user` WHERE `username` = '' AND ( `password` = null  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion D:\AllFile\Repository\weChat\Application\Home\Controller\UserController.class.php 第 22 行.
+
+[ 2017-07-10T23:49:59+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000675s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0180s ]
+NOTIC: [8] Undefined index: pass D:\AllFile\Repository\weChat\Application\Home\Model\UserModel.class.php 第 18 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+SQL: SELECT * FROM `sp_user` WHERE `username` = '' AND ( `password` = null  ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Array to string conversion D:\AllFile\Repository\weChat\Application\Home\Controller\UserController.class.php 第 22 行.
+
+[ 2017-07-10T23:50:31+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000598s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0198s ]
+NOTIC: [8] Undefined index: pass D:\AllFile\Repository\weChat\Application\Home\Model\UserModel.class.php 第 18 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+SQL: SELECT * FROM `sp_user` WHERE `username` = '' AND ( `password` = null  ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-10T23:50:49+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000691s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0177s ]
+NOTIC: [8] Undefined index: pass D:\AllFile\Repository\weChat\Application\Home\Model\UserModel.class.php 第 18 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+SQL: SELECT * FROM `sp_user` WHERE `username` = '' AND ( `password` = null  ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-10T23:51:30+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0194s ]
+NOTIC: [8] Undefined index: pass D:\AllFile\Repository\weChat\Application\Home\Model\UserModel.class.php 第 18 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+SQL: SELECT * FROM `sp_user` WHERE `username` = '' AND ( `password` = null  ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-07-10T23:51:59+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0160s ]
+NOTIC: [8] Undefined index: pass D:\AllFile\Repository\weChat\Application\Home\Model\UserModel.class.php 第 18 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 550 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 596 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 597 行.
+NOTIC: [8] Undefined offset: 0 D:\AllFile\Repository\weChat\ThinkPHP\Library\Think\Db\Driver.class.php 第 600 行.
+SQL: SELECT * FROM `sp_user` WHERE `username` = '' AND ( `password` = null  ) LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000497s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2017-07-10T23:53:47+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000992s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001897s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0185s ]
+
+[ 2017-07-10T23:54:07+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000368s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0167s ]
+
+[ 2017-07-10T23:56:05+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000516s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0191s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = '' AND `password` = '' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-10T23:56:27+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = '' AND `password` = '' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-07-10T23:59:02+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000412s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000740s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0227s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = '' AND `password` = '' LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2017-07-10T23:59:19+08:00 ] 127.0.0.1 /index.php/Home/User/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000735s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0355s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = '' AND `password` = '' LIMIT 1   [ RunTime:0.0006s ]
+

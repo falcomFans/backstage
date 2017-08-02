@@ -1,0 +1,25 @@
+[ 2017-07-15T15:52:36+08:00 ] 127.0.0.1 /index.php/Home/User/checkUser.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000700s ]
+SQL: SHOW COLUMNS FROM `sp_user` [ RunTime:0.0862s ]
+SQL: SELECT * FROM `sp_user` WHERE `username` = 'Lucy' AND `password` = '123456' LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2017-07-15T15:52:48+08:00 ] 127.0.0.1 /index.php/Home/Shop/addGoods.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002584s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\AllFile\Repository\weChat\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-15T15:52:57+08:00 ] 127.0.0.1 /index.php/Home/Shop/addGoods.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000768s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001355s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\AllFile\Repository\weChat\Application\Home\Common\Cart.class.php 第 23 行.
+
+[ 2017-07-15T20:21:50+08:00 ] 127.0.0.1 /index.php/Home/User/weiboLoginCallback?code=b2f045389443438f9d11acbf82cd9c70
+ERR: get access token failed.invalid_grant
+
+[ 2017-07-15T20:25:08+08:00 ] 127.0.0.1 /index.php/Home/User/weiboLoginCallback?code=8cbc506a51c941cf2c4057ce2d69f6f5
+ERR: get access token failed.invalid_grant
+

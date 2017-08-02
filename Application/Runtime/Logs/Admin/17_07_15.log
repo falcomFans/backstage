@@ -1,0 +1,6 @@
+[ 2017-07-15T15:53:36+08:00 ] 127.0.0.1 /index.php/Admin/Order/showinfo/id/1.html
+ERR: 非法操作:showinfo
+
+[ 2017-07-15T15:53:40+08:00 ] 127.0.0.1 /index.php/Admin/Order/bind/id/1.html
+ERR: 非法操作:bind
+
